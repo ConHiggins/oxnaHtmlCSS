@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Nunito:wght@700&family=Ubuntu:wght@300;700&display=swap");
+
+h1 {
+    color: dodgerblue;
+    font-family: "Ubuntu";
+}
+
+h1:active {
+
+    font-style: italic;
+    text-decoration: underline;
+    color:green;
+    
+}
+
+ul {
+
+    font-family: "Courgette";
+}
+
+
+
+#French {
+    display: flex;
+    align-content: row;
+}
+
+
+
+.squareH {
+    height:20px;
+    width:75px;
+}
+
+.squareV {
+    height:50px;
+    width:25px;
+}
+
+#G1{
+    background-color: black;
+}
+
+#G2{
+    background-color: red;
+}
+
+#G3{
+    background-color: yellow;
+}
+
+
+
+
+#F1{
+    background-color: blue;
+}
+
+#F2{
+    background-color: white;
+}
+
+#F3{
+    background-color: red;
+}
+
+
+#jBack {
+
+    background-color: whitesmoke;
+    width: 75px;
+    height: 50px;
+    text-align: center;
+}
+
+#jCircle {
+    height:30px;
+    width:30px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+
+
+#German:hover > #G1 {
+
+    background-color: red;
+}
+
+#German:hover > #G2 {
+
+background-color: white;
+}
+
+#German:hover > #G3 {
+
+background-color: green;
+}
+
+#French:hover > #F1 {
+
+background-color: green;
+}
+
+#French:hover > #F2 {
+
+background-color: white;
+}
+
+#French:hover > #F3 {
+
+background-color: orange;
+}
