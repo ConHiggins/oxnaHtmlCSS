@@ -34,7 +34,7 @@ body {
   #japanGrid h2 {
     grid-column-start: 2;
     text-align: left;
-    font-size: 4rem;
+    font-size: 3rem;
   }
   #japanGrid p {
     grid-column-start: 2;
@@ -86,7 +86,7 @@ body {
 #germanyGrid h2 {
   grid-column-start: 2;
   text-align: left;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 #germanyGrid p {
   grid-column-start: 2;
